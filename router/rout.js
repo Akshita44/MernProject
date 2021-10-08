@@ -5,9 +5,6 @@ const bcryptjs=require("bcryptjs");
 const Users=require("../models/collection");
 const auth=require("../middleware/auth");
 // router.use(express.json());
-router.get("/",(req,res)=>{
-    res.send("hello world");
-})
 router.post("/signup",async(req,res)=>{
     try{
         const {name,email,password,cpassword,phone}=req.body;

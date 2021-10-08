@@ -8,9 +8,6 @@ app.use(express.json());
 app.use(cookieparser())
 app.use(express.urlencoded({extended:false}));
 app.use(require("./router/rout"));
-app.get("/",(req,res)=>{
-    res.send("hello world");
-})
 if(process.env.NODE_ENV === "production")
 {
     app.use(express.static("client/build"));
