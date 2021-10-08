@@ -1,0 +1,214 @@
+.fa-adn{
+  font-size: 40px;
+  margin-left: 20px;
+
+}
+.nav-link{
+  font-size: 20px;
+}
+.homebox{
+  width: 100%;
+  height: 100vh;
+  /* position: relative; */
+  background: linear-gradient(90deg,#61dafb 50%,rgba(0,0,0,0.1) 50%);
+}
+.homecenter{
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.homeimg{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  clip-path: circle();
+}
+.homeimg2{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  clip-path: circle();
+
+}
+.homeheading{
+  font-size: 20px;
+  color: blue;
+}
+.homesubhead{
+  font-size: 40px;
+  font-weight: 500;
+}
+.sign{
+  margin-top: 120px;
+}
+
+.signup{
+  width: 800px;
+  margin: auto;
+  padding: 20px 10px 20px 30px;
+  /* display: flex; */
+  /* margin-top: 100px; */
+  background-color:white;
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+  /* background-color: burlywood; */
+}
+.login{
+  width: 800px;
+  margin: 10px auto;
+  padding: 20px 30px 20px 10px;
+  /* display: flex; */
+  /* margin-top: 100px; */
+  background-color:white;
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+  /* background-color: burlywood; */
+}
+.signhead{
+  font-size: 40px;
+  font-weight: 600;
+}
+.forminput{
+  background-color: transparent;
+  border: none;
+  width: 250px;
+  outline: none;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black ;
+}
+.forminput::placeholder{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.signimg{
+  width: 100%;
+  height: 100%;
+}
+.about{
+  /* background-color: brown; */
+  width: 900px !important;
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+  padding: 20px;
+}
+.aheader p{
+  line-height:15px;
+
+}
+.aboutname{
+  font-size: 20px;
+  font-weight: 500;
+}
+.profilelinks p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.profilelinks a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.profilelinks a:hover{
+  text-decoration: none;
+}
+.aboutprof{
+  font-size: 20px;
+  color:#0A58CA;
+}
+.rank{
+  color:rgba(0,0,0,0.3);
+  font-size: 15px;
+}
+.aboutimg{
+  width: 220px;
+  height: 220px;
+}
+.aboutlink{
+  color:#0A58CA;
+}
+.error{
+  width: 100%;
+  height: 100vh;
+  background: url("./photos/How-to-Make-a-Custom-404-Page-in-WordPress.jpg");
+  background-size: 100% 100%;
+}
+.contact{
+  width: 800px !important;
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+
+  /* background-color: brown; */
+}
+.contacthead{
+  font-size: 40px;
+  font-weight: 600;
+}
+@media(max-width:700px)
+{
+  .signup,.login{
+    width:100%;
+    /* padding: 0px; */
+  }
+  .about{
+    width: 100% !important;
+    margin: auto;
+    background-size: cover;
+    /* background-color: blanchedalmond; */
+  }
+  .navbar{
+    margin: auto;
+  }
+  .profilelinks{
+    display: none;
+  }
+  .button{
+    display: none;
+  }
+  .nav-tabs{
+    width: 300px;
+    /* margin: auto; */
+  }
+  .sign{
+    margin-top:50px;
+  }
+  .signimg{
+    width: 300px;
+    height: 300px;
+  }
+  .homeimg{
+    width: 200px;
+    height: 200px;
+    left: 30%;
+    top: 90px;
+  }
+  .homeimg2{
+    width: 200px;
+    height: 200px;
+    bottom: 5px;
+    left: 30%;
+  }
+  .signmain,.logmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact{
+    width: 100% !important;
+  }
+  .forminputs{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .forminputs input{
+    margin-bottom: 20px;
+  }
+  textarea{
+    width: 100%;
+    /* columns: 20; */
+  }
+}
