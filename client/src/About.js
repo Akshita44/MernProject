@@ -107,18 +107,9 @@ function About(){
                                 <label>Phone</label>
                             </div>
                             <div className="col-lg-6 col-md-6 aboutlink">
-                                <p>{user.email}</p>
+                                <p>{user.phone}</p>
                             </div>
                             </div>
-                            <div className="row">
-                            <div className="col-lg-6 col-md-6">
-                                <label>Profession</label>
-                            </div>
-                            <div className="col-lg-6 col-md-6 aboutlink">
-                                <p>Web Developer</p>
-                            </div>
-                            </div>
-                            
                         </div>
                         <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div className="row">
