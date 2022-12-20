@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb4a3f27.chunk.css",
+    "main.js": "/static/js/main.5da3dd8e.chunk.js",
+    "main.js.map": "/static/js/main.5da3dd8e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8f3a00f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8f3a00f3.js.map",
+    "static/css/2.0651e230.chunk.css": "/static/css/2.0651e230.chunk.css",
+    "static/js/2.abf41092.chunk.js": "/static/js/2.abf41092.chunk.js",
+    "static/js/2.abf41092.chunk.js.map": "/static/js/2.abf41092.chunk.js.map",
+    "static/js/3.47d83578.chunk.js": "/static/js/3.47d83578.chunk.js",
+    "static/js/3.47d83578.chunk.js.map": "/static/js/3.47d83578.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0651e230.chunk.css.map": "/static/css/2.0651e230.chunk.css.map",
+    "static/css/main.eb4a3f27.chunk.css.map": "/static/css/main.eb4a3f27.chunk.css.map",
+    "static/js/2.abf41092.chunk.js.LICENSE.txt": "/static/js/2.abf41092.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/How-to-Make-a-Custom-404-Page-in-WordPress.aaa4fd5a.jpg",
+    "static/media/aks.6f34263e.jpg": "/static/media/aks.6f34263e.jpg",
+    "static/media/girlsign.edef2556.jpg": "/static/media/girlsign.edef2556.jpg",
+    "static/media/homeimg.4caacd0c.png": "/static/media/homeimg.4caacd0c.png",
+    "static/media/homeimg2.0350b81a.png": "/static/media/homeimg2.0350b81a.png",
+    "static/media/login.f672eee0.jpg": "/static/media/login.f672eee0.jpg",
+    "static/media/user-circle.c9853b73.png": "/static/media/user-circle.c9853b73.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f3a00f3.js",
+    "static/css/2.0651e230.chunk.css",
+    "static/js/2.abf41092.chunk.js",
+    "static/css/main.eb4a3f27.chunk.css",
+    "static/js/main.5da3dd8e.chunk.js"
+  ]
+}
